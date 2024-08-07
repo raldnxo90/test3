@@ -11,12 +11,12 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.web.context.annotation.SessionScope;
 
 @Configuration//스프링 컨테이너
-@ComponentScan("kr.co.softsoldesk.service")
-@ComponentScan("kr.co.softsoldesk.DAO")
-@PropertySource("/WEB-INF/properties/db.properties")
+//@ComponentScan("kr.co.softsoldesk.service")
+//@ComponentScan("kr.co.softsoldesk.DAO")
+//@PropertySource("/WEB-INF/properties/db.properties")
 public class RootAppContext {
 //프로젝트 작업 시 사용할 bean을 관리하는 클래스
-	
+	/*
 	@Value("${db.classname}")
 	private String db_classname;
 	
@@ -53,5 +53,5 @@ public class RootAppContext {
 		
 		return factory;
 	}
-	
+	*/
 }
