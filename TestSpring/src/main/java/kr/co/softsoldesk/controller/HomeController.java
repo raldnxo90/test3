@@ -13,7 +13,7 @@ public class HomeController {
 	public String home() {
 		
 		
-		System.out.println("ddddd");
+		System.out.println("안녕하세요");
 		
 		return "redirect:/main";
 	}
