@@ -43,7 +43,7 @@ public class ServletAppContext implements WebMvcConfigurer{
 		
 		return new PropertySourcesPlaceholderConfigurer();
 	}//프로퍼티 파일 로딩
-	
+	/*
 	@Bean
 	public ReloadableResourceBundleMessageSource messageSource() {
 		
@@ -52,12 +52,12 @@ public class ServletAppContext implements WebMvcConfigurer{
 		
 		return res;
 	}
-	
+
 	//파일 업로드 처리 클래스
 	@Bean
 	public StandardServletMultipartResolver multipartResolver() {
 		
 		return new StandardServletMultipartResolver();
-	}
+	}*/
 
 }
